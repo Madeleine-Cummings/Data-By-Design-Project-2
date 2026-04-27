@@ -10,7 +10,7 @@
 
 ### DOI: 
 
-### Press Release-
+### Press Release- [Read the press release](press_release/press_release.md)
 
 ### Pipeline- 
 
