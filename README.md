@@ -69,6 +69,20 @@ Predicting hospital readmission risk is broad and includes a lot of potential fe
 
 This project is situated within the domain of healthcare analytics, specifically focusing on hospital readmissions and chronic disease management in diabetic patients. Healthcare analytics involves using data to improve patient outcomes, reduce costs, and support clinical decision-making. Hospital readmission rates are a key quality metric, as frequent readmissions can indicate gaps in treatment, discharge planning, or ongoing care. Diabetes is a chronic condition that requires continuous monitoring and medication management, often involving multiple drugs and dosage adjustments. As a result, treatment complexity becomes an important factor in understanding patient outcomes. By analyzing how medication patterns relate to readmission risk, this project contributes to the broader goal of improving care quality and reducing unnecessary hospitalizations.
 
+### Background reading
+
+[View Background Reading Folder](https://myuva-my.sharepoint.com/:f:/g/personal/uwg9at_virginia_edu/IgAuzZE157GqRY36Z87neRDIAfIyIUHWZVocm0oyDOOD-SE?e=AZUj7X) 
+
+#### Table for background reading
+
+| Title | Description | Link |
+|------|------------|------|
+| Predicting and Preventing Acute Care Re-Utilization by Patients with Diabetes | Explores causes of readmissions in diabetic patients and discusses predictive models and prevention strategies | https://myuva-my.sharepoint.com/:b:/g/personal/uwg9at_virginia_edu/IQANipWdDzhVRZCUttXthxJIAe0Koskecy9EaAgL-4of_EM?e=RZ7GNx  |
+| Reducing Hospital Readmissions | Provides an overview of why readmissions occur, their impact on healthcare systems, and strategies to reduce them | https://myuva-my.sharepoint.com/:b:/g/personal/uwg9at_virginia_edu/IQAP1L8OgFdxSohOQ70xVKNcAXjFkAZpLul2pyq_W50-aJc?e=jIh7yn |
+| Polypharmacy Linked to Higher Risk of Hospital Readmission | Examines how taking multiple medications increases the likelihood of hospital readmission | https://myuva-my.sharepoint.com/:b:/g/personal/uwg9at_virginia_edu/IQAJz9CYMo5tQro414FhW_UiAX2ALroeSWekO8MQsF5OkqY?e=LjLNGi |
+| Clinical Risk Factors and Social Needs of 30-Day Readmission Among Patients with Diabetes | Identifies key clinical and social factors associated with readmission in diabetic patients | https://myuva-my.sharepoint.com/:b:/g/personal/uwg9at_virginia_edu/IQA23xRg_ZLbQJnrWLhk5YymATA8RhQv2UyuzujQSPJCrXI?e=j7t55h |
+| Adverse Childhood Experiences: Assessing the Impact on Health | Discusses how long-term health conditions and social factors impact healthcare outcomes | https://myuva-my.sharepoint.com/:b:/g/personal/uwg9at_virginia_edu/IQCmFOj9aqPpRbaW5kBRiZKLAdRQp_DywXLZo0sSvmA4X8I?e=T7wjug |
+
 
 
 
