@@ -219,16 +219,47 @@ The MongoDB database contains a single collection of documents representing hosp
 ### Data Dictionary: Quantification of Uncertainty 
 
 ## Item 4
-
-| Feature              | Mean  | Std Dev | Min | Max | Missing % | Interpretation                                                                              |
-| -------------------- | ----- | ------- | --- | --- | --------- | ------------------------------------------------------------------------------------------- |
-| num_medications      | 16.09 | 8.15    | 1   | 69  | 0%        | High variability indicates large differences in medication counts, with some extreme cases. |
-| num_active_meds      | 1.19  | 0.92    | 0   | 5   | 0%        | Low variability suggests most patients are on a small number of active medications.         |
-| treatment_complexity | 1.66  | 1.32    | 0   | 6   | 0%        | Moderate spread reflects variation in treatment intensity and adjustments.                  |
-| time_in_hospital     | 4.37  | 2.94    | 1   | 14  | 0%        | Moderate variability in hospital stay duration across patients.                             |
-| number_diagnoses     | 7.40  | 1.94    | 1   | 16  | 0%        | Reflects variation in overall patient health complexity.                                    |
-| number_inpatient     | 0.64  | 1.25    | 0   | 21  | 0%        | Right-skewed with a small number of high-frequency patients.                                |
-| number_emergency     | 0.20  | 1.07    | 0   | 63  | 0%        | Highly skewed with extreme outliers representing frequent ER users.                         |
+| Feature                     | Mean  | Std Dev | Min | Max | Missing % | Interpretation |
+|---------------------------|-------|---------|-----|-----|----------|----------------|
+| num_medications            | 16.09 | 8.15    | 1   | 69  | 0.00%    | High variability indicates large differences in medication counts. |
+| change                     | —     | —       | —   | —   | 0.00%    | No missing data; binary indicator of medication change. |
+| diabetesMed                | —     | —       | —   | —   | 0.00%    | Complete indicator of whether diabetes medication was prescribed. |
+| metformin                  | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| repaglinide                | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| nateglinide                | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| chlorpropamide             | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| glimepiride                | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| acetohexamide              | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| glipizide                  | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| glyburide                  | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| tolbutamide                | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| pioglitazone               | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| rosiglitazone              | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| acarbose                   | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| miglitol                   | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| troglitazone               | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| tolazamide                 | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| examide                    | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| citoglipton                | —     | —       | —   | —   | 0.00%    | No missing values; binary medication indicator. |
+| insulin                    | —     | —       | —   | —   | 0.00%    | No missing values; key treatment variable. |
+| glyburide-metformin        | —     | —       | —   | —   | 0.00%    | No missing values; combination medication indicator. |
+| glipizide-metformin        | —     | —       | —   | —   | 0.00%    | No missing values; combination medication indicator. |
+| glimepiride-pioglitazone   | —     | —       | —   | —   | 0.00%    | No missing values; combination medication indicator. |
+| metformin-rosiglitazone    | —     | —       | —   | —   | 0.00%    | No missing values; combination medication indicator. |
+| metformin-pioglitazone     | —     | —       | —   | —   | 0.00%    | No missing values; combination medication indicator. |
+| num_active_meds            | 1.19  | 0.92    | 0   | 5   | 0.00%    | Low variability; most patients take few active medications. |
+| med_change_flag            | —     | —       | —   | —   | 0.00%    | Derived binary feature capturing treatment adjustments. |
+| treatment_complexity       | 1.66  | 1.32    | 0   | 6   | 0.00%    | Captures combined medication burden and changes. |
+| readmitted                | —     | —       | —   | —   | 0.00%    | Outcome variable; no missing data. |
+| age                        | —     | —       | —   | —   | 0.00%    | Fully observed categorical age groups. |
+| gender                     | —     | —       | —   | —   | 0.01%    | Negligible missingness; unlikely to impact results. |
+| race                       | —     | —       | —   | —   | 2.30%    | Moderate missingness; may affect subgroup analyses. |
+| time_in_hospital           | 4.37  | 2.94    | 1   | 14  | 0.00%    | Moderate variability in hospital stay duration. |
+| number_diagnoses           | 7.40  | 1.94    | 1   | 16  | 0.00%    | Reflects variation in patient health complexity. |
+| number_inpatient           | 0.64  | 1.25    | 0   | 21  | 0.00%    | Skewed distribution with some high-frequency patients. |
+| number_emergency           | 0.20  | 1.07    | 0   | 63  | 0.00%    | Highly skewed with extreme outliers. |
+| A1Cresult                  | —     | —       | —   | —   | 83.35%   | Very high missingness; not collected for most patients. |
+| max_glu_serum              | —     | —       | —   | —   | 94.75%   | Extremely high missingness; reflects selective testing. |
 
 While numerical features contain no missing values after preprocessing, several categorical variables exhibit substantial missingness. In particular, laboratory-related variables such as A1Cresult (83.35% missing) and max_glu_serum (94.75% missing) are missing for the majority of encounters. This likely reflects the fact that these tests are not administered to all patients, rather than random data loss.
 
