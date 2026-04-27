@@ -172,8 +172,6 @@ The MongoDB database contains a single collection of documents representing hosp
 | Data Source of Truth | MongoDB Atlas collection (all analysis performed via queries to this database)                                                             |
 ### Data Dictionary 
 
-## item 3
-
 | Name                     | Data Type            | Description                                                                               | Example   |
 | ------------------------ | -------------------- | ----------------------------------------------------------------------------------------- | --------- |
 | num_medications          | Integer              | Total number of medications prescribed during the encounter                               | 13        |
@@ -218,7 +216,6 @@ The MongoDB database contains a single collection of documents representing hosp
 
 ### Data Dictionary: Quantification of Uncertainty 
 
-## Item 4
 | Feature                     | Mean  | Std Dev | Min | Max | Missing % | Interpretation |
 |---------------------------|-------|---------|-----|-----|----------|----------------|
 | num_medications            | 16.09 | 8.15    | 1   | 69  | 0.00%    | High variability indicates large differences in medication counts. |
