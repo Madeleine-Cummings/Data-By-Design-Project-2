@@ -1,7 +1,8 @@
 # DS 4320 Project 2: Predicting Readmission Risk in Diabetic Patients
 
-## Executive Summary 
+### Executive Summary
 
+This project investigates whether medication complexity can help identify diabetic patients at higher risk of hospital readmission within 30 days. Using patient data, medication complexity was measured through the number of medications and frequency of changes, revealing that patients with more complex treatment plans tend to have higher readmission rates, particularly at moderate levels of complexity. However, prior hospitalizations were found to be a stronger predictor, suggesting that medication complexity reflects underlying patient severity rather than directly causing readmission. Overall, the results show that medication complexity can serve as a useful signal for identifying high-risk patients when combined with clinical history, helping providers target additional support before discharge.
 ---
 
 ### Name: Madeleine Cummings
