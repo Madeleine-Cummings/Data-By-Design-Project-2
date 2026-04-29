@@ -10,7 +10,7 @@ This project investigates whether medication complexity can help identify diabet
 
 ### NetID: Uwg9at
 
-### DOI: 
+### DOI: https://doi.org/10.5281/zenodo.19870806
 
 ### Press Release- [Read the press release](press_release/press_release.md)
 
