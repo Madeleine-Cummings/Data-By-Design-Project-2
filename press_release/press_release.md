@@ -24,7 +24,7 @@ Overall, this project shows that medication complexity is not just part of treat
 
 ## Chart 
 
-![Readmission Rate by Treatment Complexity](images/readmissionTreatmentRateGrouped.png)
+![Readmission Rate by Treatment Complexity](images/ReadmissionTreatmentRateGrouped.png)
 
 *Readmission rates increase with medication complexity, particularly from low to moderate levels, suggesting that more complex treatment plans may be harder to manage after discharge.*
 
