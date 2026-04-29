@@ -12,7 +12,7 @@
 
 ### Press Release- [Read the press release](press_release/press_release.md)
 
-### Pipeline- 
+### Pipeline- [View Pipeline](Pipeline/PipelineProject2.ipynb)
 
 ### Liscense- [MIT License](LICENSE.md)
 
