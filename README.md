@@ -14,8 +14,8 @@ This project investigates whether medication complexity can help identify diabet
 
 ### Press Release- [Read the press release](press_release/press_release.md)
 
-### Pipeline- [View Pipeline Notebook](Pipeline/PipelineProject2 (1).ipynb)  
-### Pipeline (Markdown)- [View Markdown Version](Pipeline/PipelineProject2 (1).md)
+### Pipeline- [View Pipeline Notebook](Pipeline/PipelineProject2.ipynb)  
+### Pipeline (Markdown)- [View Markdown Version](Pipeline/PipelineProject2.md)
 
 ### Liscense- [MIT License](LICENSE.md)
 
