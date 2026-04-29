@@ -10,7 +10,21 @@ Hospital readmissions within 30 days remain a persistent issue in healthcare, of
 
 ## Solution Description 
 
-This project focuses on identifying diabetic patients who may be at higher risk of readmission by examining patterns in their medication use, particularly the number of medications prescribed and how often those medications are adjusted. For patients with diabetes, treatment often involves carefully balancing multiple drugs to control blood sugar levels, and frequent changes can signal that a patient’s condition is not yet stable. As shown in the chart below, patients who experience more medication changes have noticeably higher readmission rates, suggesting that treatment instability is a key risk factor. By using this information, healthcare providers can better identify at-risk diabetic patients before discharge and take targeted actions, such as closer monitoring, clearer medication plans, or additional follow-up care, to help prevent avoidable readmissions. 
+This project focuses on whether medication complexity can help explain why some diabetic patients are more likely to be readmitted within 30 days.
+
+For many patients with diabetes, treatment involves managing multiple medications at once, often with adjustments over time. While these medications are necessary, a more complex treatment plan can also make care harder to manage after leaving the hospital. Frequent changes and multiple prescriptions may signal that a patient’s condition is still unstable.
+
+The data supports this idea. Patients with more complex medication regimens, measured through the number of medications and how often they are changed, tend to have higher readmission rates. This suggests that medication complexity can serve as a useful indicator of risk.
+
+However, medication complexity does not act on its own. Patients with a history of more hospital visits are even more likely to be readmitted, which indicates that complexity often reflects underlying health severity rather than directly causing readmission.
+
+By using medication complexity alongside a patient’s clinical history, hospitals can better identify individuals who may need additional support before discharge. This could include clearer medication instructions, follow-up care, or more personalized treatment plans.
+
+Overall, this project shows that medication complexity is not just part of treatment, it is also a signal that can help identify patients at higher risk of returning to the hospital.
 
 ## Chart 
+
+![Readmission Rate by Treatment Complexity](images/readmissionTreatmentRateGrouped.png)
+
+*Readmission rates increase with medication complexity, particularly from low to moderate levels, suggesting that more complex treatment plans may be harder to manage after discharge.*
 
